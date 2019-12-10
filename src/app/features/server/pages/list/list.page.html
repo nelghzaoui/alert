@@ -1,0 +1,9 @@
+<ion-header>
+  <ion-toolbar color="primary">
+    <ion-title> Choose your server </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <list-component [items]="items" (redirect)="onRedirect($event)"></list-component>
+</ion-content>
