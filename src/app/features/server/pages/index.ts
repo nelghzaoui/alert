@@ -1,3 +1,4 @@
+import { AddPage } from './add/add.page';
 import { ListPage } from './list/list.page';
 
-export { ListPage };
+export { AddPage, ListPage };

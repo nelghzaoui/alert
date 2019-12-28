@@ -1,12 +1,12 @@
-import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
-import { Item } from 'core/models/item.interface';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
+import { Item } from '@core/models/item.interface';
 
 @Component({
   selector: 'list-component',
   templateUrl: './list.component.html',
   styleUrls: ['./list.component.scss']
 })
-export class ListComponent implements OnInit {
+export class ListComponent {
   @Input() items: Item[];
   @Output() redirect = new EventEmitter<Item>();
   @Output() edit = new EventEmitter<Item>();
@@ -14,14 +14,16 @@ export class ListComponent implements OnInit {
 
   constructor() {}
 
-  ngOnInit(): void {}
-
-  onRedirect(item: Item): void {
-    this.redirect.emit(item);
+  onAdd(): void {
+    console.log('add server');
   }
 
   onEdit(item: Item): void {
     this.edit.emit(item);
+  }
+
+  onRedirect(item: Item): void {
+    this.redirect.emit(item);
   }
 
   onRemove(item: Item): void {
