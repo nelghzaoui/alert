@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { PreloadAllModules, RouterModule, Routes } from '@angular/router';
+import { ServerModule } from '@server/server.module';
 
 const routes: Routes = [
-  // { path: '', redirectTo: 'home', pathMatch: 'full' },
-  // { path: 'home', loadChildren: () => import('./home/home.module').then(m => m.HomePageModule) }
   { path: '', redirectTo: 'server', pathMatch: 'full' },
   {
     path: 'server',
-    loadChildren: () => import('./features/server/server.module').then(m => m.ServerModule)
+    loadChildren: (): Promise<typeof ServerModule> =>
+      import('@server/server.module').then(m => m.ServerModule)
   }
 ];
 
