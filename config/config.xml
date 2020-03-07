@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.smalert.mobile.dev" version="0.0.1" android-versionCode="0000101" ios-CFBundleVersion="0000101" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
-    <name>DEV Smalert</name>
+<widget id="@@APP_BUNDLE_ID" version="@@APP_VERSION" android-versionCode="@@APP_BUILD_NUMBER" ios-CFBundleVersion="@@APP_BUILD_NUMBER" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+    <name>@@APP_NAME</name>
     <description>Security mobile application.</description>
     <author email="elghzaouinasreddine@hotmail.com" href="https://www.linkedin.com/in/nasreddine-e-237850138/">El Ghzaoui Nasreddine</author>
     <content src="index.html" />
