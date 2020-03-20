@@ -2,6 +2,15 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": "./",
+    "paths": {
+      "@environments/*": ["src/environments/*"],
+      "@core/*": ["src/app/common/core/*"],
+      "@shared/*": ["src/app/common/shared/*"],
+      "@account/*": ["src/app/common/features/account/*"],
+      "@alert/*": ["src/app/common/features/alert/*"],
+      "@security/*": ["src/app/common/features/security/*"],
+      "@server/*": ["src/app/common/features/server/*"]
+    },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
     "declaration": false,
@@ -12,16 +21,7 @@
     "importHelpers": true,
     "target": "es2015",
     "typeRoots": ["node_modules/@types"],
-    "lib": ["es2018", "dom"],
-    "paths": {
-      "@environments/*": ["src/environments/*"],
-      "@core/*": ["src/app/common/core/*"],
-      "@shared/*": ["src/app/common/shared/*"],
-      "@account/*": ["src/app/common/features/account/*"],
-      "@alert/*": ["src/app/common/features/alert/*"],
-      "@security/*": ["src/app/common/features/security/*"],
-      "@server/*": ["src/app/common/features/server/*"]
-    }
+    "lib": ["es2018", "dom"]
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,
