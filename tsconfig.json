@@ -4,12 +4,12 @@
     "baseUrl": "./",
     "paths": {
       "@environments/*": ["src/environments/*"],
-      "@core/*": ["src/app/common/core/*"],
-      "@shared/*": ["src/app/common/shared/*"],
-      "@account/*": ["src/app/common/features/account/*"],
-      "@alert/*": ["src/app/common/features/alert/*"],
-      "@security/*": ["src/app/common/features/security/*"],
-      "@server/*": ["src/app/common/features/server/*"]
+      "@core/*": ["src/app/modules/core/*"],
+      "@shared/*": ["src/app/modules/shared/*"],
+      "@account/*": ["src/app/modules/features/account/*"],
+      "@alert/*": ["src/app/modules/features/alert/*"],
+      "@security/*": ["src/app/modules/features/security/*"],
+      "@server/*": ["src/app/modules/features/server/*"]
     },
     "outDir": "./dist/out-tsc",
     "sourceMap": true,
