@@ -7,7 +7,7 @@
  * - licence file for Ariadnext
  * - build-extras to fix depedencies
  */
-module.exports = ctx => {
+module.exports = (ctx) => {
   const gulp = require('gulp');
   const path = require('path');
 
@@ -36,7 +36,7 @@ module.exports = ctx => {
   ];
 
   // Copy files
-  files.forEach(file => {
+  files.forEach((file) => {
     try {
       gulp
         .src(path.join(src, file.name), {

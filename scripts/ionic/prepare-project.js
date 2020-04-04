@@ -1,4 +1,4 @@
-module.exports = ctx => {
+module.exports = (ctx) => {
   const del = require('del');
   const gulp = require('gulp');
   const replace = require('gulp-replace-task');

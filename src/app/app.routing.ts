@@ -6,7 +6,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'server', pathMatch: 'full' },
   {
     path: 'server',
-    loadChildren: (): Promise<typeof ServerModule> => import('@server/server.module').then(m => m.ServerModule)
+    loadChildren: (): Promise<typeof ServerModule> => import('@server/server.module').then((m) => m.ServerModule)
   }
 ];
 

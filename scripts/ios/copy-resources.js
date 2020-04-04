@@ -7,7 +7,7 @@
  *
  * Set "addResource: true" to copy files to Xcode projet
  */
-module.exports = function(ctx) {
+module.exports = function (ctx) {
   const fs = require('fs');
   const gulp = require('gulp');
   const xcode = require('xcode');
@@ -64,7 +64,7 @@ module.exports = function(ctx) {
 
   const proj = xcode.project(projectPath);
   proj.parse(() => {
-    files.forEach(file => {
+    files.forEach((file) => {
       if (!fs.existsSync(path.join(src, file.name))) {
         return;
       }
