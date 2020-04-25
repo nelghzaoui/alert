@@ -1,1 +1,9 @@
-{}
+{
+  "register": {
+    "title": "Create Account",
+    "phone": "Phone",
+    "mail": "Mail",
+    "password": "Password",
+    "confirmPassword": "Confirm password"
+  }
+}
