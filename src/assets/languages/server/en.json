@@ -1,1 +1,15 @@
-{}
+{
+  "server": {
+    "add": {
+      "title": "Create Server",
+      "name": "Name",
+      "url": "Url",
+      "port": "Port",
+      "btn": "Add Server"
+    },
+
+    "list": {
+      "title": "Choose your server"
+    }
+  }
+}

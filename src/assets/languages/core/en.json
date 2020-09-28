@@ -1,1 +1,7 @@
-{}
+{
+  "core": {
+    "items": {
+      "empty": "No items available"
+    }
+  }
+}
