@@ -1,7 +1,8 @@
 {
   "name": "alert",
   "integrations": {
-    "cordova": {}
+    "cordova": {},
+    "capacitor": {}
   },
   "type": "angular",
   "hooks": {
