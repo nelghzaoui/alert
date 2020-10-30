@@ -8,7 +8,7 @@ export const environment = new Environment(
   'dev',
   5,
   false,
-  new ApiConfig('http://localhost:3000/', SslPinning.NOCHECK)
+  new ApiConfig('http://localhost:3000/graphql', SslPinning.NOCHECK)
 );
 
 /*
