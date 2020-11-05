@@ -178,6 +178,28 @@ export type ServerQueryVariables = Exact<{
 
 export type ServerQuery = { server: Pick<ServerType, 'id' | 'name' | 'url' | 'port'> };
 
+export type AddServerMutationVariables = Exact<{
+  input: ServerInput;
+}>;
+
+
+export type AddServerMutation = { addServer: Pick<ServerType, 'id' | 'name' | 'url' | 'port'> };
+
+export type UpdateServerMutationVariables = Exact<{
+  input: ServerInput;
+  id: Scalars['String'];
+}>;
+
+
+export type UpdateServerMutation = { updateServer: Pick<ServerType, 'id' | 'name' | 'url' | 'port'> };
+
+export type DeleteServerMutationVariables = Exact<{
+  id: Scalars['String'];
+}>;
+
+
+export type DeleteServerMutation = { deleteServer: Pick<ServerType, 'id' | 'name' | 'url' | 'port'> };
+
 export const AccountsDocument = gql`
     query accounts {
   accounts {
@@ -261,6 +283,69 @@ export const ServerDocument = gql`
   })
   export class ServerGQL extends Apollo.Query<ServerQuery, ServerQueryVariables> {
     document = ServerDocument;
+    
+    constructor(apollo: Apollo.Apollo) {
+      super(apollo);
+    }
+  }
+export const AddServerDocument = gql`
+    mutation addServer($input: ServerInput!) {
+  addServer(input: $input) {
+    id
+    name
+    url
+    port
+  }
+}
+    `;
+
+  @Injectable({
+    providedIn: CoreModule
+  })
+  export class AddServerGQL extends Apollo.Mutation<AddServerMutation, AddServerMutationVariables> {
+    document = AddServerDocument;
+    
+    constructor(apollo: Apollo.Apollo) {
+      super(apollo);
+    }
+  }
+export const UpdateServerDocument = gql`
+    mutation updateServer($input: ServerInput!, $id: String!) {
+  updateServer(input: $input, id: $id) {
+    id
+    name
+    url
+    port
+  }
+}
+    `;
+
+  @Injectable({
+    providedIn: CoreModule
+  })
+  export class UpdateServerGQL extends Apollo.Mutation<UpdateServerMutation, UpdateServerMutationVariables> {
+    document = UpdateServerDocument;
+    
+    constructor(apollo: Apollo.Apollo) {
+      super(apollo);
+    }
+  }
+export const DeleteServerDocument = gql`
+    mutation deleteServer($id: String!) {
+  deleteServer(id: $id) {
+    id
+    name
+    url
+    port
+  }
+}
+    `;
+
+  @Injectable({
+    providedIn: CoreModule
+  })
+  export class DeleteServerGQL extends Apollo.Mutation<DeleteServerMutation, DeleteServerMutationVariables> {
+    document = DeleteServerDocument;
     
     constructor(apollo: Apollo.Apollo) {
       super(apollo);
