@@ -1,15 +1,27 @@
 {
   "server": {
-    "add": {
-      "title": "Create Server",
-      "name": "Name",
-      "url": "Url",
-      "port": "Port",
-      "btn": "Add Server"
+    "form": {
+      "common": {
+        "name": "Name",
+        "url": "Url",
+        "port": "Port"
+      },
+      "title": {
+        "add": "Create Server",
+        "update": "Update Server"
+      },
+      "button": {
+        "add": "Add",
+        "update": "Update"
+      }
     },
-
     "list": {
-      "title": "Choose your server"
+      "title": "Choose your server",
+      "actions": {
+        "redirect": "Login to {{ server }}",
+        "update": "Update {{ server }}",
+        "remove": "Remove {{ server }}"
+      }
     }
   }
 }
