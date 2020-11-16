@@ -1,20 +1,5 @@
 {
   "server": {
-    "form": {
-      "common": {
-        "name": "Name",
-        "url": "Url",
-        "port": "Port"
-      },
-      "title": {
-        "add": "Create Server",
-        "update": "Update Server"
-      },
-      "button": {
-        "add": "Add",
-        "update": "Update"
-      }
-    },
     "list": {
       "title": "Choose your server",
       "actions": {

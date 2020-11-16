@@ -2,6 +2,21 @@
   "core": {
     "items": {
       "empty": "No items available"
+    },
+    "forms": {
+      "title": {
+        "server-add": "Create Server",
+        "server-update": "Update Server"
+      },
+      "field": {
+        "name": "Name",
+        "port": "Port",
+        "url": "Url"
+      },
+      "button": {
+        "add": "Add",
+        "update": "Update"
+      }
     }
   }
 }
