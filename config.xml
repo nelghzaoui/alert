@@ -1,8 +1,8 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.smalert.mobile.dev" version="0.0.1" android-versionCode="0000101" ios-CFBundleVersion="0000101" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.smalert.dev" version="0.0.1" android-versionCode="0000101" ios-CFBundleVersion="0000101" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
     <name>DEV Smalert</name>
     <description>Security mobile application.</description>
-    <author email="elghzaouinasreddine@hotmail.com" href="https://www.linkedin.com/in/nasreddine-e-237850138/">El Ghzaoui Nasreddine</author>
+    <author email="eln@outlook.be" href="https://www.linkedin.com/in/nasreddine-e-237850138/">El Ghzaoui Nasreddine</author>
     <content src="index.html" />
     <access origin="*" />
     <allow-intent href="http://*/*" />
