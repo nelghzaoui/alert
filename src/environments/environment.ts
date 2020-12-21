@@ -1,15 +1,10 @@
-import { ApiConfig, Environment, SslPinning } from '@core/models/environments';
+import { Environment } from '@core/models/environments/environments.class';
 
 // This file can be replaced during build by using the `fileReplacements` array.
 // `ng build --prod` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
-export const environment = new Environment(
-  'dev',
-  5,
-  false,
-  new ApiConfig('http://localhost:3000/graphql', SslPinning.NOCHECK)
-);
+export const environment = new Environment('dev', 5, false);
 
 /*
  * For easier debugging in development mode, you can import the following file
