@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { Platform } from '@ionic/angular';
 import { Plugins } from '@capacitor/core';
+import { environment } from '@environments/environment';
 
 const { SplashScreen } = Plugins;
 
@@ -15,6 +16,8 @@ export class AppComponent {
   }
 
   initializeApp(): void {
+    console.log(environment.languages);
+
     this.platform.ready().then(() => {
       SplashScreen.hide();
     });
