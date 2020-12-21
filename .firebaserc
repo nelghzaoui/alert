@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "smalert-712db": {
+      "hosting": {
+        "app": [
+          "smalert-712db"
+        ]
+      }
+    }
+  }
+}
