@@ -1,4 +1,13 @@
 {
+  "home": {
+    "social-network": "Connect with social network",
+    "or": "or",
+    "not-register": "Doesn't have an account yet ?",
+    "buttons": {
+      "email": "Connect with E-mail",
+      "register": "Register"
+    }
+  },
   "register": {
     "title": "Create Account",
     "phone": "Phone",
