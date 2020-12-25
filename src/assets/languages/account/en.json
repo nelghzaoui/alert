@@ -1,18 +1,25 @@
 {
+  "account": {
+    "register": "Register",
+    "password": "Password",
+    "email": "E-mail",
+    "username": "Username"
+  },
   "home": {
     "social-network": "Connect with social network",
     "or": "or",
     "not-register": "Doesn't have an account yet ?",
     "buttons": {
-      "email": "Connect with E-mail",
-      "register": "Register"
+      "email": "Connect with E-mail"
     }
   },
-  "register": {
-    "title": "Create Account",
+  "registration": {
     "phone": "Phone",
     "mail": "Mail",
-    "password": "Password",
+    "name": "Name",
     "confirmPassword": "Confirm password"
+  },
+  "login": {
+    "title": "Login"
   }
 }
