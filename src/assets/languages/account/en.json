@@ -1,25 +1,23 @@
 {
   "account": {
-    "register": "Register",
-    "password": "Password",
+    "register": "Sign Up",
+    "login": "Log In",
     "email": "E-mail",
-    "username": "Username"
+    "password": "Password",
+    "social-network": "Or connect with"
   },
   "home": {
-    "social-network": "Connect with social network",
-    "or": "or",
-    "not-register": "Doesn't have an account yet ?",
-    "buttons": {
-      "email": "Connect with E-mail"
-    }
+    "title": "Welcome",
+    "subtitle": "Create an account and access thousand of cool stuffs",
+    "started": "Getting Started",
+    "registered": "Already have an account ?"
   },
   "registration": {
-    "phone": "Phone",
-    "mail": "Mail",
-    "name": "Name",
-    "confirmPassword": "Confirm password"
+    "fullname": "Full Name",
+    "phone": "Phone"
   },
   "login": {
-    "title": "Login"
+    "forgot-password": "Forgot Password ?",
+    "not-registered": "Doesn't have an account yet ?"
   }
 }
