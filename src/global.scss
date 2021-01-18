@@ -30,6 +30,10 @@
   height: 100%;
   flex-flow: row wrap;
   align-content: space-around;
+
+  .full-width {
+    width: 100%;
+  }
 }
 
 :focus {
