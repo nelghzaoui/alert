@@ -9,12 +9,13 @@
   "home": {
     "title": "Welcome",
     "subtitle": "Create an account and access thousand of cool stuffs",
-    "started": "Getting Started",
-    "registered": "Already have an account ?"
+    "started": "Getting Started"
   },
   "registration": {
+    "subtitle": "Fill details and create your account",
     "fullname": "Full Name",
-    "phone": "Phone"
+    "phone": "Phone",
+    "registered": "Already have an account ?"
   },
   "login": {
     "forgot-password": "Forgot Password ?",
