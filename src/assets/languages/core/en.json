@@ -5,8 +5,8 @@
     },
     "forms": {
       "title": {
-        "server-add": "Create Server",
-        "server-update": "Update Server"
+        "server-add": "Create {{ Item }}",
+        "server-update": "Update {{ Item }}"
       },
       "field": {
         "name": "Name",
