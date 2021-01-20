@@ -9,9 +9,7 @@
         "server-update": "Update {{ Item }}"
       },
       "field": {
-        "name": "Name",
-        "port": "Port",
-        "url": "Url"
+        "name": "Name"
       },
       "button": {
         "add": "Add",

@@ -1,12 +1,23 @@
 {
   "alert": {
+    "common": {
+      "field": {
+        "location": "Location",
+        "type": "Type",
+        "priority": "Priority"
+      }
+    },
     "list": {
       "title": "Choose your alert",
       "actions": {
-        "redirect": "Login to {{ alert }}",
+        "redirect": "Details",
         "update": "Update {{ alert }}",
         "remove": "Remove {{ alert }}"
       }
+    },
+    "buttons": {
+      "add": "Report",
+      "update": "Update"
     }
   }
 }

@@ -7,7 +7,7 @@ import { ServerModule } from '@server/server.module';
 const routes: Routes = [
   {
     path: '',
-    redirectTo: 'account',
+    redirectTo: 'alert',
     pathMatch: 'full'
   },
   {
