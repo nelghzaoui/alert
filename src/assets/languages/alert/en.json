@@ -1,0 +1,12 @@
+{
+  "alert": {
+    "list": {
+      "title": "Choose your alert",
+      "actions": {
+        "redirect": "Login to {{ alert }}",
+        "update": "Update {{ alert }}",
+        "remove": "Remove {{ alert }}"
+      }
+    }
+  }
+}
