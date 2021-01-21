@@ -1,24 +1,29 @@
 {
   "alert": {
-    "common": {
-      "field": {
-        "location": "Location",
-        "type": "Type",
-        "priority": "Priority",
-        "description": "Description"
-      }
+    "title": {
+      "list": "List of alert",
+      "add": "Report a new alert",
+      "update": "Update {{ alert }}"
     },
-    "list": {
-      "title": "Choose your alert",
-      "actions": {
-        "redirect": "Details",
-        "update": "Update {{ alert }}",
-        "remove": "Remove {{ alert }}"
-      }
+    "field": {
+      "location": "Location",
+      "type": "Type",
+      "priority": "Priority",
+      "description": "Description"
     },
-    "buttons": {
+    "button": {
       "add": "Report",
       "update": "Update"
+    },
+    "message": {
+      "success": {
+        "added": "Your alert has been successfully added !",
+        "updated": "Your alert has been successfully uploaded !",
+        "removed": "Your alert has been successfully removed"
+      },
+      "error": {
+        "generic": "Something went wrong. We could not perform your trask."
+      }
     }
   }
 }
