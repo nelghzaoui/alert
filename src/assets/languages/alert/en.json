@@ -4,7 +4,8 @@
       "field": {
         "location": "Location",
         "type": "Type",
-        "priority": "Priority"
+        "priority": "Priority",
+        "description": "Description"
       }
     },
     "list": {
